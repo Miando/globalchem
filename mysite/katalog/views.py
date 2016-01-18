@@ -1,3 +1,5 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+def tovar_list(request):
+    return render(request, 'katalog/tovar_list.html', {})
