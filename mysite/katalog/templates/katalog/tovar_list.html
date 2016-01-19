@@ -18,7 +18,12 @@
         </ul>
       </div>
     </div>
-
+{% for tovar in tovars %}
+  <div>
+    <h3><a href="">{{ tovar.title }}</a></h3>
+    <p>{{ tovar.text|linebreaks }}</p>
+  </div>
+{% endfor %}
     <div class="jumbotron">
       <div class="container">
         <h1>Find a place to stay.</h1>
@@ -26,7 +31,7 @@
       </div>
     </div>
 
-    
+
 	  </div>
 	</div>
   </body>
