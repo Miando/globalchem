@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+  <head>
+    <title>Продукція</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/katalog.css' %}">
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul>
+          <li><a href="#">Головна</a></li>
+          <li><a href="#">Продукція</a></li>
+          <li><a href="#">Сертифікати</a></li>
+          <li><a href="#">Про нас</a></li>
+          <li><a href="#">Контакти</a></li>
+        </ul>
+      </div>
+    </div>
+    {% block content %}
+    {% endblock %}
+    <div class="jumbotron">
+      <div class="container">
+
+      </div>
+    </div>
+
+
+	  </div>
+	</div>
+  </body>
+  <footer>
+  </footer>
+</html>

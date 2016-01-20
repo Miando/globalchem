@@ -1,9 +1,10 @@
 {% extends 'katalog/base.html' %}
 {% block content %}
-  {% for tovar in tovars %}
+
   <div>
-    <h3><a href="{% url 'tovar_detail' pk=tovar.pk %}">{{ tovar.title }}</a></h3>
+    <h3>{{ tovar.title }}</h3>
     <p>{{ tovar.text|linebreaks }}</p>
+    <p>{{ tovar.bezpeka|linebreaks }}</p>
   </div>
-  {% endfor %}
+
 {% endblock %}
