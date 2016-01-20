@@ -1,6 +1,6 @@
 {% extends 'katalog/base.html' %}
 {% block content %}
-  {% for tovar in tovars %}
+  {% for piv in pivo %}
   <div>
     <h3><a href="{% url 'tovar_detail' pk=tovar.pk %}">{{ tovar.title }}</a></h3>
     <p>{{tovar.zastosuvannya}}</p>
