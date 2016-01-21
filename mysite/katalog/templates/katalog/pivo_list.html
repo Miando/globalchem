@@ -2,8 +2,8 @@
 {% block content %}
   {% for piv in pivo %}
   <div>
-    <h3><a href="{% url 'tovar_detail' pk=tovar.pk %}">{{ tovar.title }}</a></h3>
-    <p>{{tovar.zastosuvannya}}</p>
+    <h3><a href="{% url 'tovar_detail' pk=piv.pk %}">{{ piv.title }}</a></h3>
+    <p>{{piv.zastosuvannya}}</p>
   </div>
   {% endfor %}
 {% endblock %}
