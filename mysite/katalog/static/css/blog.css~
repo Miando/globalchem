@@ -1,6 +1,7 @@
 .kontakti{
     background-color:#efefef;
     border-bottom:1px solid #dbdbdb;
+    margin-bottom:100px;
 }
 
 .kontakti p{
@@ -64,7 +65,7 @@
 }
 
 .jumbotron {
-  background-image:url('http://127.0.0.1:8000/static/5jfnDI3.jpeg');
+  background-image:url('http://miando.pythonanywhere.com/static/5jfnDI3.jpeg');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
