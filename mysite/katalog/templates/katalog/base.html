@@ -1,17 +1,8 @@
-<!DOCTYPE html>
-{% load staticfiles %}
-<html>
-  <head>
-    <title>Продукція</title>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="{% static 'css/katalog.css' %}">
-  </head>
 
-  <body>
+
     <div class="nav">
       <div class="container">
-        <ul>
+        <ul class="pull-left">
           <li><a href="{% url 'home' %}">Головна</a></li>
           <li><a href="{% url 'produkcia' %}">Продукція</a></li>
           <li><a href="{% url 'sertifikati' %}">Сертифікати</a></li>
@@ -20,17 +11,3 @@
         </ul>
       </div>
     </div>
-    {% block content %}
-    {% endblock %}
-    <div class="jumbotron">
-      <div class="container">
-
-      </div>
-    </div>
-
-
-	  </div>
-	</div>
-  </body>
-
-</html>

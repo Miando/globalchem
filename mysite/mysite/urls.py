@@ -3,6 +3,7 @@ from django.contrib import admin
 from katalog import views
 
 urlpatterns = [
+    url(r'^$', views.home, name='home'),
     url(r'^produkcia/', include('katalog.urls')),
     url(r'^produkcia/$',  views.produkcia, name='produkcia'),
     url(r'^admin/', include(admin.site.urls)),

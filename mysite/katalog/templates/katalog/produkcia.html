@@ -1,0 +1,28 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Глобал Хім Україна</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+  </head>
+
+  <body>
+
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="{% url 'home' %}">Головна</a></li>
+          <li><a href="{% url 'produkcia' %}">Продукція</a></li>
+          <li><a href="{% url 'sertifikati' %}">Сертифікати</a></li>
+          <li><a href="{% url 'pro_nas' %}">Про нас</a></li>
+          <li><a href="{% url 'kontakti' %}">Контакти</a></li>
+        </ul>
+      </div>
+    </div>
+
+    </div>
+
+  </body>
+</html>

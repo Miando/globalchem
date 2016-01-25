@@ -32,7 +32,7 @@ def pivo_list(request):
 
 def gigiena_list(request):
     gigiena=Tovar.objects.filter(category__name='gigiena')
-    return render(request, 'katalog/gigiena_list.html', {'gigiena':moloko})
+    return render(request, 'katalog/gigiena_list.html', {'gigiena':gigiena})
 
 def tovar_detail(request, pk):
     tovar = get_object_or_404(Tovar, pk=pk)

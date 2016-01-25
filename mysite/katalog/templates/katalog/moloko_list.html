@@ -4,7 +4,7 @@
 <html>
 
   <head>
-    <title>Чистячі та дезинфікуючі засоби для пивної та безалкогольної промисловості</title>
+    <title>Чистячі та дезинфікуючі засоби для молочної промисловості</title>
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
   </head>
@@ -22,10 +22,10 @@
       </div>
     </div>
 
-  {% for piv in pivo %}
+  {% for mol in moloko %}
   <div>
-    <h3><a href="{% url 'tovar_detail' pk=piv.pk %}">{{ piv.title }}</a></h3>
-    <p>{{piv.zastosuvannya}}</p>
+    <h3><a href="{% url 'tovar_detail' pk=mol.pk %}">{{ mol.title }}</a></h3>
+    <p>{{mol.zastosuvannya}}</p>
   </div>
   {% endfor %}
 

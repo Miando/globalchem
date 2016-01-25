@@ -1,7 +1,6 @@
 .kontakti{
     background-color:#efefef;
     border-bottom:1px solid #dbdbdb;
-    margin-bottom:100px;
 }
 
 .kontakti p{
