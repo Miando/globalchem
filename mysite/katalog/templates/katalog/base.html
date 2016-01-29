@@ -22,5 +22,33 @@
     </div>
     {% block content %}
     {% endblock %}
+    <div class="navbar-fixed-bottom row-fluid">
+      <div class="navbar-inner">
+
+
+    <div class="row">
+        <div class="col-lg-12">
+            <ul class="list-inline">
+                <li>
+                    <a href="{% url 'home' %}">Головна</a>
+                </li>
+                <li class="footer-menu-divider">⋅</li>
+                <li>
+                    <a href="{% url 'home' %}#produkcia">Продукція</a>
+                </li>
+                <li class="footer-menu-divider">⋅</li>
+                <li>
+                    <a href="{% url 'home' %}#pro_nas">Про нас</a>
+                </li>
+                <li class="footer-menu-divider">⋅</li>
+                <li>
+                    <a href="{% url 'home' %}#kontakti">Контакти</a>
+                </li>
+            </ul>
+            <p class="copyright text-muted small">Copyright © Глобал Хім Україна 1995-2016. All Rights Reserved</p>
+        </div>
+        </div>
+        </div>
+    </div>
   </body>
 </html>

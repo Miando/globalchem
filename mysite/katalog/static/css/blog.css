@@ -73,6 +73,16 @@ hr {
     border-bottom:1px solid #dbdbdb;
 }
 
+.list-inline{
+	padding-left:100px;
+
+}
+
+.copyright{
+	padding-left:100px;
+	padding-bottom:20px;
+}
+
 .nav {
   margin-top: 3px;
 }
