@@ -74,7 +74,16 @@ hr {
 }
 
 .nav {
-	  margin-top: 15px;
+  margin-top: 3px;
+}
+
+.navbar {
+	min-height: 30px;
+}
+
+.navbar-default{
+	height: 25px;
+	background-color: #FFF;
 }
 
 .nav a {
