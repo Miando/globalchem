@@ -1,34 +1,17 @@
+{% extends 'katalog/base.html' %}
 
-{% load staticfiles %}
-<!DOCTYPE html>
-<html>
-
-  <head>
-    <title>??????????????????????</title>
-    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
-    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
-  </head>
-
-  <body>
-    <div class="nav">
-      <div class="container">
-        <ul class="pull-left">
-          <li><a href="{% url 'home' %}">Головна</a></li>
-          <li><a href="{% url 'produkcia' %}">Продукція</a></li>
-          <li><a href="{% url 'sertifikati' %}">Сертифікати</a></li>
-          <li><a href="{% url 'pro_nas' %}">Про нас</a></li>
-          <li><a href="{% url 'kontakti' %}">Контакти</a></li>
-        </ul>
-      </div>
-    </div>
-
-  {% for gig in gigiena %}
-  <div>
-    <h3><a href="{% url 'tovar_detail' pk=gig.pk %}">{{ gig.title }}</a></h3>
-    <p>{{gig.zastosuvannya}}</p>
-  </div>
-  {% endfor %}
-
-
-</body>
-</html>
+{% block title %}Миючі та дезинфікуючі засоби для мясної промисловості{% endblock %}
+{% block content %}
+<div class="learn-more">
+  <div class="container">
+  <div class="row">
+{% for gig in gigiena %}
+<div class="col-md-4">
+  <h3><a href="{% url 'tovar_detail' pk=gig.pk %}">{{ gig.title }}</a></h3>
+  <p>{{gig.zastosuvannya}}</p>
+</div>
+{% endfor %}
+</div>
+</div>
+</div>
+{% endblock %}

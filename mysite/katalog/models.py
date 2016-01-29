@@ -11,7 +11,6 @@ class Tovar(models.Model):
     title = models.CharField(max_length=200)
     zastosuvannya = models.CharField(max_length=200)
     opys = models.TextField()
-    bezpeka = models.TextField()
     category = models.ManyToManyField(Category)
     opublikovaty = models.BooleanField(default=False)
     def publish(self):
