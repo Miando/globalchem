@@ -147,11 +147,10 @@
   margin-top:20px;
 }
 
-#.learn-more .ppp{
-  border:2px solid #f7f7f7;
-  height: 130px;
-  padding:5px;
-  margin-bottom:20px;
+.learn-more .ooo{
+  background-color: #f7f7f7;
+  border:5px solid #f7f7f7;
+  margin-top:20px;
 }
 
 .learn-more h3 {
