@@ -1,9 +1,11 @@
+
+
 .row {
   margin-right: 0px;
   margin-left: 0px;
 }
 
-hr {
+.hr {
     margin-top: 20px;
     margin-bottom: 20px;
     border-width: 1px 0px 0px;
@@ -66,6 +68,7 @@ hr {
     color:#393c3d;
     font-size:24px;
 	text-align: center;
+	
 }
 
 .neighborhood-guides{
@@ -75,12 +78,12 @@ hr {
 
 .list-inline{
 	padding-left:100px;
-
+	font-family: 'Shift', sans-serif;
 }
 
 .copyright{
 	padding-left:100px;
-	padding-bottom:10px;
+	padding-bottom:20px;
 }
 
 .nav {
@@ -135,8 +138,18 @@ hr {
   text-shadow: 0px 0px 3px rgba(0,0,0,0.7);
 }
 
-.learn-more {
+#.learn-more .ppp{
   background-color: #f7f7f7;
+  height: 130px;
+  border:5px solid #f7f7f7;
+  margin-bottom:20px;
+}
+
+.learn-more .ppp{
+  border:2px solid #f7f7f7;
+  height: 130px;
+  padding:5px;
+  margin-bottom:20px;
 }
 
 .learn-more h3 {
