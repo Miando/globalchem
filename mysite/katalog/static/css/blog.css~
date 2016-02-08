@@ -68,13 +68,25 @@
     color:#393c3d;
     font-size:24px;
 	text-align: center;
-	
+}
+
+.peighborhood-guides h2{
+    color:#393c3d;
+    font-size:24px;
+	text-align: center;
+}
+
+.peighborhood-guides{
+    background-color:white;
+    border-bottom:1px solid #dbdbdb;
 }
 
 .neighborhood-guides{
     background-color:#efefef;
     border-bottom:1px solid #dbdbdb;
 }
+
+
 
 .list-inline{
 	padding-top:100px;
@@ -118,6 +130,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 0px;
+  cursor: pointer; 
 }
 
 .jumbotron .container {
@@ -149,7 +162,6 @@
 
 .learn-more .ooo{
   background-color: #f7f7f7;
-  height: 130px;
   border:5px solid #f7f7f7;
   margin-top:20px;
 }
