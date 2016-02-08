@@ -9,7 +9,7 @@
   </head>
 
   <body>
-
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="nav">
       <div class="container">
         <ul class="pull-left">
@@ -20,12 +20,15 @@
         </ul>
       </div>
     </div>
+  </nav>
+    <div onclick="location.href='{% url 'home' %}'">
     <div class="jumbotron">
       <div class="container">
         <h1>Глобал Хім Україна</h1>
         <p>Ми піклуємось про вашу репутацію</p>
 
       </div>
+    </div>
     </div>
     {% block content %}
     {% endblock %}
