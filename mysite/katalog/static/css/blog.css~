@@ -78,7 +78,7 @@
 
 .peighborhood-guides{
     background-color:white;
-    border-bottom:1px solid #dbdbdb;
+  
 }
 
 .neighborhood-guides{
