@@ -153,7 +153,7 @@
 }
 
 .learn-more .ppp{
-  border: 8px double white;
+  border: 6px double white;
   background-color: #f7f7f7;
   height: 130px;
 
@@ -162,10 +162,12 @@
 }
 
 .learn-more .ooo{
+  border: 6px double white;
   background-color: #f7f7f7;
-  border:5px solid #f7f7f7;
+  height: 130px;
 
   margin-top:20px;
+  padding-left:20px;
 }
 
 .learn-more h3 {

@@ -162,10 +162,12 @@
 }
 
 .learn-more .ooo{
+  border: 6px double white;
   background-color: #f7f7f7;
-  border:5px solid #f7f7f7;
+ 
 
   margin-top:20px;
+  padding-left:20px;
 }
 
 .learn-more h3 {
