@@ -2,13 +2,20 @@
 
 {% block title %}Миючі та дезинфікуючі засоби для мясної промисловості{% endblock %}
 {% block content %}
+<div class="peighborhood-guides">
+  <div class="container">
+    <h2>Миючі та дезинфікуючі засоби для мясної промисловості</h2>
+  </div>
+</div>
 <div class="learn-more">
   <div class="container">
   <div class="row">
 {% for myas in myaso %}
 <div class="col-md-4">
+  <div class="ppp">
   <h3><a href="{% url 'tovar_detail' pk=myas.pk %}">{{ myas.title }}</a></h3>
   <p>{{myas.zastosuvannya}}</p>
+</div>
 </div>
 {% endfor %}
 </div>

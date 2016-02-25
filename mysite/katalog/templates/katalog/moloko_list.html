@@ -2,13 +2,20 @@
 
 {% block title %}Миючі та дезинфікуючі засоби для молочної промисловості{% endblock %}
 {% block content %}
+<div class="peighborhood-guides">
+  <div class="container">
+    <h2>Миючі та дезинфікуючі засоби для молочної промисловості</h2>
+  </div>
+</div>
 <div class="learn-more">
   <div class="container">
   <div class="row">
 {% for mol in moloko %}
 <div class="col-md-4">
+  <div class="ppp">
   <h3><a href="{% url 'tovar_detail' pk=mol.pk %}">{{ mol.title }}</a></h3>
   <p>{{mol.zastosuvannya}}</p>
+</div>
 </div>
 {% endfor %}
 </div>
