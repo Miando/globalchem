@@ -9,16 +9,16 @@
 </div>
 <div class="learn-more">
   <div class="container">
-  <div class="row">
-{% for mol in moloko %}
-<div class="col-md-4">
-  <div class="ppp">
-  <h3><a href="{% url 'tovar_detail' pk=mol.pk %}">{{ mol.title }}</a></h3>
-  <p>{{mol.zastosuvannya}}</p>
-</div>
-</div>
+    <div class="row">
+    {% for mol in moloko %}
+      <div class="col-md-4">
+        <div class="ppp">
+          <h3><a href="{% url 'tovar_detail' pk=mol.pk %}">{{ mol.title }}</a></h3>
+          <p>{{mol.zastosuvannya}}</p>
+        </div>
+      </div>
 {% endfor %}
-</div>
-</div>
+    </div>
+  </div>
 </div>
 {% endblock %}
